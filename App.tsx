@@ -5,7 +5,8 @@ import {NavigationContainer} from '@react-navigation/native';
 // import RouteParams from './src_StackNavigation/RouteParams';
 // import TabNavigation from './src_TabNavigation/Index';
 // import EachTab from './src_TabNavigation/EachTab';
-import DrawerNavigation from './src_DrawerNavigation/Index';
+// import DrawerNavigation from './src_DrawerNavigation/Index';
+import MaterialTopTabNavigation from './src_MaterialTopTabNavigation/Index';
 
 function App(): React.JSX.Element {
   return (
@@ -14,7 +15,8 @@ function App(): React.JSX.Element {
       {/* <RouteParams /> */}
       {/* <TabNavigation /> */}
       {/* <EachTab /> */}
-      <DrawerNavigation />
+      {/* <DrawerNavigation /> */}
+      <MaterialTopTabNavigation />
     </NavigationContainer>
   );
 }
