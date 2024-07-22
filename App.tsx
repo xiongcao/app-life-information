@@ -6,7 +6,9 @@ import {NavigationContainer} from '@react-navigation/native';
 // import TabNavigation from './src_TabNavigation/Index';
 // import EachTab from './src_TabNavigation/EachTab';
 // import DrawerNavigation from './src_DrawerNavigation/Index';
-import MaterialTopTabNavigation from './src_MaterialTopTabNavigation/Index';
+// import MaterialTopTabNavigation from './src_MaterialTopTabNavigation/Index';
+
+import Project from './src_project';
 
 function App(): React.JSX.Element {
   return (
@@ -16,7 +18,9 @@ function App(): React.JSX.Element {
       {/* <TabNavigation /> */}
       {/* <EachTab /> */}
       {/* <DrawerNavigation /> */}
-      <MaterialTopTabNavigation />
+      {/* <MaterialTopTabNavigation /> */}
+
+      <Project />
     </NavigationContainer>
   );
 }
