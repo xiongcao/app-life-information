@@ -14,11 +14,11 @@ const App = () => {
         tabBarIcon: ({focused, color, size}) => {
           let iconName;
 
-          if (route.name === 'Home') {
+          if (route.name === 'HomeScreen') {
             iconName = focused ? 'home' : 'home-outline';
-          } else if (route.name === 'News') {
+          } else if (route.name === 'NewsScreen') {
             iconName = focused ? 'settings' : 'settings-outline';
-          } else if (route.name === 'User') {
+          } else if (route.name === 'UserScreen') {
             iconName = focused ? 'person' : 'person-outline';
           }
 
@@ -28,9 +28,9 @@ const App = () => {
         tabBarActiveTintColor: 'tomato',
         tabBarInactiveTintColor: 'gray',
       })}>
-      <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="News" component={NewsScreen} />
-      <Tab.Screen name="User" component={UserScreen} />
+      <Tab.Screen name="HomeScreen" component={HomeScreen} />
+      <Tab.Screen name="NewsScreen" component={NewsScreen} />
+      <Tab.Screen name="UserScreen" component={UserScreen} />
     </Tab.Navigator>
   );
 };

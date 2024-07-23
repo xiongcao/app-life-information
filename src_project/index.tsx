@@ -4,8 +4,8 @@ import MainTab from './routes';
 
 const App = () => {
   const getThreeDays = async () => {
-    const data = await findThreeDays();
-    console.log(data, 'data');
+    // const data = await findThreeDays();
+    // console.log(data, 'data');
   };
 
   useEffect(() => {
